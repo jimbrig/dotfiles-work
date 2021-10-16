@@ -1,0 +1,15 @@
+# gitattributes file
+
+# Git--LFS
+*.pst filter=lfs diff=lfs merge=lfs -text
+*.zip filter=lfs diff=lfs merge=lfs -text
+
+# linguist - ignore HTML, JS, and Rich Text Format
+*.html linguist-vendored
+*.js linguist-vendored
+*.rtf linguist-vendored
+
+# git-crypt encryptions
+# for git-crypt add files t/b encrypted with filter=git-crypt diff=git-crypt
+gh/hosts.yml filter=git-crypt diff=git-crypt
+

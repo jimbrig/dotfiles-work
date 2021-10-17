@@ -1,0 +1,43 @@
+[user]
+	name = Jimmy Briggs
+	email = jimmy.briggs@pwc.com
+	signingKey = 370C8AEB9558B23956F43908F129716EB9D81990
+[default]
+	protocol = ssh
+[gpg]
+	program = C:\\Program Files (x86)\\GnuPG\\bin\\gpg.exe
+[commit]
+	gpgSign = true
+[tag]
+	forceSignAnnotated = true
+[color]
+	ui = auto
+[core]
+	longpaths = true
+	excludesfile = ~/.gitignore
+	attributesfile = ~/.gitattributes
+	symlinks = true
+	safecrlf = true
+	untrackedCache = true
+[init]
+	defaultBranch = main
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[submodule]
+	recurse = true
+[url "git@github.com:"]
+    insteadOf = "gh:"
+    pushInsteadOf = "github:"
+    pushInsteadOf = "git://github.com/"
+[url "git://github.com/"]
+    insteadOf = "github:"
+[url "git@gist.github.com:"]
+    insteadOf = "gst:"
+    pushInsteadOf = "gist:"
+    pushInsteadOf = "git://gist.github.com/"
+[url "git://gist.github.com/"]
+    insteadOf = "gist:"
+

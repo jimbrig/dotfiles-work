@@ -11,5 +11,10 @@
 
 # git-crypt encryptions
 # for git-crypt add files t/b encrypted with filter=git-crypt diff=git-crypt
+
+# Github CLI Hosts (contains GITHUB_PAT)
 gh/hosts.yml filter=git-crypt diff=git-crypt
+
+# GPG Exported Private Keys
+gpg/backup/private-keys.asc filter=git-crypt diff=git-crypt
 

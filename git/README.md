@@ -1,18 +1,17 @@
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
-
-- [Git Configuration](#git-configuration)
-  - [Global User `.gitconfig`](#global-user-gitconfig)
-  - [Global User Git Attributes - `gitattributes`](#global-user-git-attributes---gitattributes)
-  - [Global User Git Ignore - `gitignore`](#global-user-git-ignore---gitignore)
-  - [Related](#related)
-
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
 # Git Configuration
 
 My custom work profile's Git Configuration files.
+
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+<!-- END doctoc -->
+
+- [Global User `.gitconfig`](#global-user-gitconfig)
+- [Global User Git Attributes - `gitattributes`](#global-user-git-attributes---gitattributes)
+- [Global User Git Ignore - `gitignore`](#global-user-git-ignore---gitignore)
+- [Related](#related)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 ## Global User `.gitconfig`
 

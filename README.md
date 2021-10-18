@@ -2,6 +2,8 @@
 
 > Dotfiles, Configurations, Documentation, and Setup scripts for my Work Machine.
 
+See the [Changelog](CHANGELOG.md) for latest details on repository changes over time.
+
 ## Contents
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->

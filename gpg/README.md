@@ -35,7 +35,7 @@ gpg --export-ownertrust > ownertrust.asc
 
 - See [backup](./backup/)
   - [ownertrust.asc](backup/ownertrust.asc)
-  - [private-keys.asc](backup/private-keys.asc) *Note: Encrypted with `git-crypt`
+  - [private-keys.asc](backup/private-keys.asc) *Note: Encrypted with `git-crypt`*
   - [public-keys.asc](backup/public-keys.asc)
 
 These are generated using the Scripts mentioned above.
